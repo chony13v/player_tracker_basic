@@ -1,0 +1,32 @@
+# 🐍 Entornos virtuales
+.venv/
+env/
+venv/
+
+# 🔐 Archivos de entorno y secretos
+.env
+.env.*
+
+# 📹 Archivos de entrada y salida pesados
+input_videos/
+output_videos/
+
+# 🧠 Modelos y pesos
+models/
+
+# 🏃 Salidas de Ultralytics (predicciones, runs, logs)
+runs/
+*.log
+
+# 🧪 Archivos temporales y caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.tmp
+.DS_Store
+
+# 📝 Editor config (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
