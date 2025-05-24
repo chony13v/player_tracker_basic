@@ -14,6 +14,9 @@ output_videos/
 # 🧠 Modelos y pesos
 models/
 
+# 📓 Notebooks de entrenamiento (no subir al repo)
+training_notebooks/
+
 # 🏃 Salidas de Ultralytics (predicciones, runs, logs)
 runs/
 *.log
