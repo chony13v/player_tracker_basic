@@ -82,7 +82,7 @@ class BallTracker:
         save_stub(stub_path,tracks)
         
         return tracks
-    
+
     def remove_wrong_detections(self,ball_positions):
         """
         Filter out incorrect ball detections based on maximum allowed movement distance.
@@ -118,7 +118,7 @@ class BallTracker:
                 last_good_frame_index = i
 
         return ball_positions
-    
+
     def interpolate_ball_positions(self,ball_positions):
         """
         Interpolate missing ball positions to create smooth tracking results.
@@ -138,5 +138,3 @@ class BallTracker:
 
         ball_positions = [{1: {"bbox":x}} for x in df_ball_positions.to_numpy().tolist()]
         return ball_positions
-
-   
