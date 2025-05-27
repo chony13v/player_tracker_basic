@@ -8,11 +8,11 @@ from pass_and_interception_detector import PassAndInterceptionDetector
 
 def main():
     # Read video
-    video_frames = read_video("input_videos/video_2.mp4")
+    video_frames = read_video("input_videos/sample_1.mp4")
 
     # Initialize Tracker
-    player_tracker = PlayerTracker("models/player_detector.pt")
-    ball_tracker = BallTracker("models/ball_detector_model.pt")
+    player_tracker = PlayerTracker("models/football-player-detection.pt")
+    ball_tracker = BallTracker("models/football-ball-detection.pt")
 
     # Run Trackers
     player_tracks = player_tracker.get_object_tracks(

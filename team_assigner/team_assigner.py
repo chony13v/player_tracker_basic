@@ -16,8 +16,8 @@ class TeamAssigner:
 
     def __init__(
         self,
-        team_1_class_name="plain white basketball shirt",
-        team_2_class_name="dark blue basketball shirt",
+        team_1_class_name="plain white shirt",
+        team_2_class_name="dark blue shirt",
     ):
         self.team_colors = {}
         self.player_team_dict = {}        
